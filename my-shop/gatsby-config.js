@@ -70,7 +70,7 @@ module.exports = {
         disableLiveReload: false,
 
         // Custom API base URL
-        apiUrl: 'https://commercelayer-imgix.datocms.com',
+        apiUrl: 'https://commercelayer-imgix.admin.datocms.com',
 
         // Setup locale fallbacks
         // In this example, if some field value is missing in Italian, fall back to English
