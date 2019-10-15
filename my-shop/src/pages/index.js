@@ -35,13 +35,15 @@ export default IndexPage
 
 export const query = graphql`
   query CatalogueQuery {
-    site {
-      siteMetadata {
-        products {
-          slug
+    products: AllDatoCmsProduct {
+      edges {
+        node {
+          id
           name
-          image
           price
+          image {
+            url
+          }
         }
       }
     }
